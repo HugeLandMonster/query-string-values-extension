@@ -540,7 +540,6 @@
             _flashState.deactivated = true;
           }
           if (_flashState.deactivated === true) {
-console.log('deactivateddd');
             ZeroClipboard.emit({
               type: "error",
               name: "flash-deactivated"

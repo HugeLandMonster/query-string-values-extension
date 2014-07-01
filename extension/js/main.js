@@ -4,6 +4,7 @@ var client = new ZeroClipboard( document.getElementById("copy-button") );
 client.on( "error", function( readyEvent ) {
   console.log(readyEvent);
 });
+
 client.on( "ready", function( readyEvent ) {
   // alert( "ZeroClipboard SWF is ready!" );
 
